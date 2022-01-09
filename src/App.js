@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+import Header from './components/Header'
 import './App.scss';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="container">
-      <header className="App-header">
-        
-      </header>
+      <Header />
+      <div className='content'>
+        <Navbar />
+        <main className='portfolio-view'>
+          Portfolio view
+        </main>
+      </div>
     </div>
   );
 }

@@ -2,6 +2,7 @@
 
 $primary-color-light: #bb9a59;
 $primary-color-dark: #6e5933;
+$primary-color-dark-2: #232020;
 
 * {
   margin: 0;
@@ -24,7 +25,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: var(--color-grey-dark-2);
+  color: #fff;
   background-image: linear-gradient(
     to right bottom,
     $primary-color-light,
@@ -40,8 +41,115 @@ body {
 //Layout Container
 .container {
   max-width: 120rem;
-  margin: 8rem auto;
-  background-color: #fff;
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
+  margin: 6rem auto;
+  background-color: #C96480;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   min-height: 50rem;
+}
+
+/////////////////////////////
+//Upper nav bar
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: #232020;
+  font-size: 2rem;
+  color: $primary-color-light;
+  letter-spacing: 0.8rem;
+}
+
+.logo {
+  height: 4.25rem;
+  margin-left: 2rem;
+}
+
+.kostas-photo {
+  height: 4.25rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.content {
+  display: flex;
+}
+
+/////////////////////////
+//SIDEBAR
+.sidebar {
+  background-color: $primary-color-dark-2;
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid $primary-color-light;
+  height: 85vh;
+}
+
+.side-nav {
+  font-size: 1.4rem;
+  list-style: none;
+  margin-top: 3.5rem;
+  color: $primary-color-light;
+  
+  &__item {
+    position: relative;
+
+    &:not(::last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-image: linear-gradient(
+    to right bottom,
+    $primary-color-dark,
+    $primary-color-light
+    
+  );
+    transform: scaleY(0);
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+      background-color 0.1s;
+  }
+  &__item:hover::before {
+    transform: scaleY(1);
+    width: 100%;
+  }
+  &__item:active::before {
+    background-color: #fff;
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: $primary-color-light;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+  }
+  &__link:hover {
+    color: $primary-color-dark-2;
+    transition: 2s;
+  }
+  
+}
+
+////////////////////////////
+//legal text
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  color: $primary-color-light;
+  padding: 2.5rem;
 }
