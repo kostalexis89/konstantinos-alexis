@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import './App.scss';
 import Navbar from './components/Navbar';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <div className='content'>
         <Navbar />
         <main className='portfolio-view'>
-          Portfolio view
+          <LandingPage />
         </main>
       </div>
     </div>

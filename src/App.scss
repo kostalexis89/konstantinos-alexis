@@ -42,7 +42,7 @@ body {
 .container {
   max-width: 120rem;
   margin: 6rem auto;
-  background-color: #C96480;
+  background-color: #bb9a59;
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   min-height: 50rem;
 }
@@ -74,6 +74,9 @@ body {
 
 .content {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
 
 /////////////////////////
@@ -93,7 +96,7 @@ body {
   list-style: none;
   margin-top: 3.5rem;
   color: $primary-color-light;
-  
+
   &__item {
     position: relative;
 
@@ -110,11 +113,10 @@ body {
     height: 100%;
     width: 3px;
     background-image: linear-gradient(
-    to right bottom,
-    $primary-color-dark,
-    $primary-color-light
-    
-  );
+      to right bottom,
+      $primary-color-dark,
+      $primary-color-light
+    );
     transform: scaleY(0);
     transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
       background-color 0.1s;
@@ -142,7 +144,6 @@ body {
     color: $primary-color-dark-2;
     transition: 2s;
   }
-  
 }
 
 ////////////////////////////
@@ -152,4 +153,29 @@ body {
   text-align: center;
   color: $primary-color-light;
   padding: 2.5rem;
+}
+
+.portfolio-view {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+
+  & h1 {
+    font-size: 5rem;
+    color: $primary-color-dark-2;
+    font-weight: 100;
+    letter-spacing: 0.5rem;
+  }
+}
+
+#countdown {
+  background-color: $primary-color-dark-2;
+  border-radius: 50%;
+  color: #bb9a59;
+  height: 8.75rem;
+  width: 8.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
