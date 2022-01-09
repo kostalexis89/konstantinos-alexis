@@ -24,6 +24,8 @@ export default function LandingPage() {
             <h1 id='countdown'>{count}</h1>
        
     ) : (
+        <div className='typewriter'>
     <h1>Welcome to my Portfolio</h1>
+    </div>
 )
 }
