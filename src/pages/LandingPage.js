@@ -13,9 +13,10 @@ export default function LandingPage() {
 	};
 
     useEffect(() => {
-		console.log('component mounted');
 		const intervalId = setInterval(counter, 1000);
-
+        return () => {
+			clearTimeout(intervalId);
+		}
 	}, [])
 
     console.log(count)

@@ -6,8 +6,8 @@ export default function Navbar() {
     <nav className="sidebar">
       <ul className="side-nav">
         <li className="side-nav__item">
-          <Link to="/bio" className="side-nav__link">
-            <span>Bio</span>
+          <Link to="/about" className="side-nav__link">
+            <span>About Me</span>
           </Link>
         </li>
         <li className="side-nav__item">
@@ -23,6 +23,12 @@ export default function Navbar() {
         <li className="side-nav__item">
           <Link to="/contact" className="side-nav__link">
             <span>Contact</span>
+          </Link>
+        </li>
+        <li className="side-nav__item">
+          
+          <Link to="../Konstantinos_Alexis_CV.pdf" className="side-nav__link" target="_blank" download>
+            <span>Download Bio</span>
           </Link>
         </li>
       </ul>
