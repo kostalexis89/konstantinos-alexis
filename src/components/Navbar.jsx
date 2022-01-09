@@ -1,28 +1,29 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 export default function Navbar() {
   return (
     <nav className="sidebar">
       <ul className="side-nav">
         <li className="side-nav__item">
-          <a href="#" className="side-nav__link">
+          <Link to="/bio" className="side-nav__link">
             <span>Bio</span>
-          </a>
+          </Link>
         </li>
         <li className="side-nav__item">
-          <a href="#" className="side-nav__link">
+          <Link to="/projects" className="side-nav__link">
             <span>Projects</span>
-          </a>
+          </Link>
         </li>
         <li className="side-nav__item">
-          <a href="#" className="side-nav__link">
+          <Link to="/education" className="side-nav__link">
             <span>Education</span>
-          </a>
+          </Link>
         </li>
         <li className="side-nav__item">
-          <a href="#" className="side-nav__link">
+          <Link to="/contact" className="side-nav__link">
             <span>Contact</span>
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="legal">&copy; 2022 by Konstantinos Alexis. All right reserved.</div>
