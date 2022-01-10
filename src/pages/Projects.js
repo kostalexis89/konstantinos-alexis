@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/projects.scss";
-import wordpressIcon from "../288-2888437_wordpress-development-pink-wordpress-icon-hd-png-download.png";
-import reactIcon from "../react-icon.png";
-import nodeJsIcon from "../node-js-icon-8.jpg";
-import mongoDbIcon from "../mongoDb-icon.jpg";
-import contributionIcon from "../contribution-icon.jpg";
+import wordpressIcon from "../images/288-2888437_wordpress-development-pink-wordpress-icon-hd-png-download.png";
+import reactIcon from "../images/react-icon.png";
+import nodeJsIcon from "../images/node-js-icon-8.jpg";
+import mongoDbIcon from "../images/mongoDb-icon.jpg";
+import contributionIcon from "../images/contribution-icon.jpg";
 import Wordpress from "../components/Wordpress";
 import FullStack from "../components/FullStack";
 import Contributions from "../components/Contributions";

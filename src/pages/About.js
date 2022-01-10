@@ -20,7 +20,7 @@ export default function About() {
 
 I have a BC's in Computer Science and a BC's in the field of Arts.
 
-I am seeking opportunities to continue my learning path as a Web Developer in a company as part of an aspiring and diversity team.</p>
+I am seeking opportunities to continue my learning path as a Web Developer in a company as part of an aspiring and diversity team. I am located in Berlin!</p>
                                     </div>
                                 </div>
                             </div>

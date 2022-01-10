@@ -3,7 +3,6 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import LandingPage from './pages/LandingPage';
 import { Routes, Route } from 'react-router-dom'
-import Bio from './pages/Bio';
 import Projects from './pages/Projects';
 import Education from './pages/Education';
 import Contact from './pages/Contact';
@@ -27,7 +26,6 @@ function App() {
             <Route path='/projects' element={<Projects />} />
             <Route path='/education' element={<Education />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/bio' element={<Bio />} />
             <Route path='/projects/wordpress' element={<Wordpress />} />
             <Route path='/projects/fullstack' element={<FullStack />} />
             <Route path='/projects/contributions' element={<Contributions />} />

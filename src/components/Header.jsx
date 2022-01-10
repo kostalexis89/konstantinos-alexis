@@ -1,7 +1,7 @@
 import React from "react";
-import github from "../git hub logo.png"
-import linkedin from "../linkedin logo.png"
-import logo from '../logo.png'
+import github from "../images/git hub logo.png"
+import linkedin from "../images/linkedin logo.png"
+import logo from '../images/logo.png'
 import {Link} from 'react-router-dom'
 
 export default function header() {
