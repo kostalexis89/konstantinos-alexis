@@ -1,8 +1,4 @@
-$color-black: #232020;
-$color-white: #fff;
-$color-secondary-light: #bb9a592c;
-$color-secondary-dark: #6e59337e;
-
+@import './colors.scss';
 
 .container-card{
   display: flex;

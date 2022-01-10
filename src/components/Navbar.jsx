@@ -11,6 +11,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="side-nav__item">
+          <Link to="/skills" className="side-nav__link">
+            <span>Tech SKills</span>
+          </Link>
+        </li>
+        <li className="side-nav__item">
           <Link to="/projects" className="side-nav__link">
             <span>Projects</span>
           </Link>
