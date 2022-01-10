@@ -8,7 +8,7 @@ export default function header() {
   return (
       <header className="header">
         <Link to='/'><img src={logo} alt="logo" className="logo"></img></Link>
-        <p>Konstantinos Alexis</p>
+        <p className="header__name">Konstantinos Alexis</p>
         <div>
           <a href="https://www.linkedin.com/in/konstantinosalexis/" rel="noreferrer" target="_blank"><img src={linkedin} alt="logo" className="kostas-photo"></img></a>
           <a href="https://github.com/kostalexis89" rel="noreferrer" target="_blank"><img src={github} alt="logo" className="kostas-photo"></img></a>

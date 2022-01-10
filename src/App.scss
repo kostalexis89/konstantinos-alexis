@@ -1,6 +1,11 @@
 // @import "./index.scss"
 
 @import './styles/colors.scss';
+$bp-largest: 75em;     // 1200px
+$bp-large: 68.75em;    // 1100px
+$bp-medium: 56.25em;   // 900px
+$bp-small: 37.5em;     // 600px
+$bp-smallest: 31.25em; // 500px
 
 * {
   margin: 0;
@@ -57,6 +62,11 @@ body {
   font-size: 2rem;
   color: $primary-color-light;
   letter-spacing: 0.8rem;
+  &__name {
+    @media only screen and (max-width: $bp-medium) {
+      display: none;
+  }
+  }
 }
 
 .logo {
@@ -74,6 +84,12 @@ body {
   display: flex;
   // justify-content: space-between;
   align-items: center;
+  // align-items: stretch;
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+    align-items: stretch;
+    
+}
 }
 
 /////////////////////////
@@ -94,12 +110,25 @@ body {
   margin-top: 3.5rem;
   color: $primary-color-light;
 
+  @media only screen and (max-width: $bp-medium) {
+    display: flex;
+    margin: 0;
+}
+
   &__item {
     position: relative;
 
     &:not(::last-child) {
       margin-bottom: 0.5rem;
+      @media only screen and (max-width: $bp-medium) {
+        margin: 0;
     }
+    }
+    @media only screen and (max-width: $bp-medium) {
+      flex: 1;
+      border-right: 1px dotted $color-secondary-light;
+      font-size: 1rem;
+  }
   }
 
   &__item::before {
@@ -136,6 +165,16 @@ body {
     align-items: center;
     position: relative;
     z-index: 10;
+    @media only screen and (max-width: $bp-medium) {
+      justify-content: center;
+      padding: 2rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+      padding: 1.5rem .5rem;
+  }
+
   }
   &__link:hover {
     color: $primary-color-dark-2;
@@ -151,6 +190,9 @@ body {
   text-align: center;
   color: $primary-color-light;
   padding: 2.5rem;
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+}
 }
 
 ////////////////////////////////////
