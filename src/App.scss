@@ -126,7 +126,7 @@ body {
     }
     @media only screen and (max-width: $bp-medium) {
       flex: 1;
-      border-right: 1px dotted $color-secondary-light;
+      border-right: 1px dashed $color-secondary-light;
       font-size: 1rem;
   }
   }
@@ -209,6 +209,7 @@ body {
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
+    flex: 1;
   }
 }
 
@@ -225,7 +226,8 @@ body {
 }
 
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  @media only screen and (min-width: 1118px) {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .1em solid $primary-color-dark-2; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -233,6 +235,11 @@ body {
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+}
+@media only screen and (max-width: 1118px) {
+    font-size: 5vw;
+}
+
 }
 
 /* The typing effect */
