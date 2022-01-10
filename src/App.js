@@ -15,16 +15,16 @@ function App() {
       <Header />
       <div className='content'>
         <Navbar />
-        <main className='portfolio-view'>
+      
           <Routes>
-          <Route path='/' element={<LandingPage />} />
-          <Route path='/about' element={<About />} />
+            <Route path='/' element={<LandingPage />} />
+            <Route path='/about' element={<About />} />
             <Route path='/projects' element={<Projects />} />
             <Route path='/education' element={<Education />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/bio' element={<Bio />} />
           </Routes>
-        </main>
+        
       </div>
     </div>
   );

@@ -21,11 +21,12 @@ export default function LandingPage() {
 
     console.log(count)
     return running ? (
-        
+        <div className='portfolio-view'>
             <h1 id='countdown'>{count}</h1>
+        </div>
        
     ) : (
-        <div className='typewriter'>
+        <div className='typewriter portfolio-view'>
     <h1>Welcome to my Portfolio</h1>
     </div>
 )
