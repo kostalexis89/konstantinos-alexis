@@ -18,7 +18,7 @@ export default function About() {
                                     <div className="card__text-box">
                                         <p className="card__text-only">Hi! I'm a Full-Stack Web Developer focused on the Front-End with a background in Web Design. Eager to contribute to team success through hard work, attention to detail with strong sense of aesthetics.
 
-I have a BC's in Computer Science and a BC's in the field of Arts.
+I have a BSc in Computer Science and a BSc in the field of Arts.
 
 I am seeking opportunities to continue my learning path as a Web Developer in a company as part of an aspiring and diversity team. I am located in Berlin!</p>
                                     </div>

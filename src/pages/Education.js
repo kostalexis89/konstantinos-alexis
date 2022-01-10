@@ -8,7 +8,7 @@ export default function Education() {
                 <h1>BC's</h1>
                 <h2>Computer Science Department</h2>
                 <h4>Aristotle University of Thessaloniki - Greece</h4>
-                <h5>2007-2013</h5>
+                <h5>2008-2013</h5>
             </div>
             <div className='education-view__item'>
                 <h1>BC's</h1>

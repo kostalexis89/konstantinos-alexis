@@ -6,7 +6,7 @@ import "../styles/contact.scss";
 export default function Contact() {
   return (
     <div className="contact-view">
-      <h1>Feel free to contact me</h1>
+      <h1>Let's Make Something Together!</h1>
       <div className="contact-view__ways">
         <button
           className="sides-nav__item"
