@@ -9,6 +9,9 @@ import Education from './pages/Education';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Skills from './pages/Skills';
+import Wordpress from './components/Wordpress';
+import FullStack from './components/FullStack';
+import Contributions from './components/Contributions';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
             <Route path='/education' element={<Education />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/bio' element={<Bio />} />
+            <Route path='/projects/wordpress' element={<Wordpress />} />
+            <Route path='/projects/fullstack' element={<FullStack />} />
+            <Route path='/projects/contributions' element={<Contributions />} />
           </Routes>
         
       </div>
