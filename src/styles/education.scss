@@ -1,0 +1,17 @@
+@import './colors.scss';
+
+.education-view {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    &__item {
+        background-color: $primary-color-dark-2;
+        color: $primary-color-light;
+        margin-bottom: 3rem;
+        width: 34%;
+        height: 20%;
+        padding: 1rem 1.4rem;
+        letter-spacing: .2rem;
+    }
+}

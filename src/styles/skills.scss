@@ -8,7 +8,7 @@
 
     &__item {
         background-color: $primary-color-dark-2;
-        width: 40vw;
+        width: 50vw;
         height: 5rem;
         margin-bottom: 2rem;
         font-size: 1.4rem;
@@ -18,5 +18,12 @@
         flex-direction: column;
         justify-content: center;
         color: $primary-color-light;
+        box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.3);
+        transition: 1.4s;
+
+        &:hover {
+            border-radius: 50%;
+            transition: .5s;
+        }
     }
   }
