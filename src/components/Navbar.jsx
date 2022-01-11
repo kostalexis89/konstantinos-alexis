@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom'
+import pdf from '../Konstantinos_Alexis_CV.pdf'
 
 export default function Navbar() {
   return (
@@ -32,9 +33,9 @@ export default function Navbar() {
         </li>
         <li className="side-nav__item">
           
-          <Link to="../Konstantinos_Alexis_CV.pdf" className="side-nav__link" target="_blank" download>
+          <a href={pdf} className="side-nav__link" target="_blank" rel="noreferrer">
             <span>Bio</span>
-          </Link>
+          </a>
         </li>
       </ul>
       <div className="legal">&copy; 2022 by Konstantinos Alexis. All right reserved.</div>
