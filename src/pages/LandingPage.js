@@ -19,7 +19,6 @@ export default function LandingPage() {
 		}
 	}, [])
 
-    console.log(count)
     return running ? (
         <div className='portfolio-view'>
             <h1 id='countdown'>{count}</h1>

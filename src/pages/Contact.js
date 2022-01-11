@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="contact-view__ways">
         <button
           className="sides-nav__item"
-          onClick={() => (window.location = "mailto:yourmail@gmail.com")}
+          onClick={() => (window.location = "mailto:kostalexis89@hotmail.com")}
         >
           e-mail
         </button>
