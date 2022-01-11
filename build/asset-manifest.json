@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.ccfff0eb.css",
-    "main.js": "/static/js/main.35226a8f.js",
+    "main.js": "/static/js/main.38162a75.js",
     "static/js/787.86e70ff7.chunk.js": "/static/js/787.86e70ff7.chunk.js",
+    "static/media/Konstantinos_Alexis_CV.pdf": "/static/media/Konstantinos_Alexis_CV.5c4ac64d21b8611fd8b4.pdf",
     "static/media/288-2888437_wordpress-development-pink-wordpress-icon-hd-png-download.png": "/static/media/288-2888437_wordpress-development-pink-wordpress-icon-hd-png-download.02833f8d54a48b2ac339.png",
-    "static/media/Konstantinos_Alexis_CV.pdf": "/static/media/Konstantinos_Alexis_CV.a2e879ed5ecb0af21ea9.pdf",
     "static/media/git hub logo.png": "/static/media/git hub logo.9345390bdc971a633ac3.png",
     "static/media/contribution-icon.jpg": "/static/media/contribution-icon.7d01aee3cde129c6bf28.jpg",
     "static/media/mongoDb-icon.jpg": "/static/media/mongoDb-icon.078095d3d1b262e4f58f.jpg",
@@ -15,11 +15,11 @@
     "static/media/logo.png": "/static/media/logo.27c962cebec02d0212da.png",
     "index.html": "/index.html",
     "main.ccfff0eb.css.map": "/static/css/main.ccfff0eb.css.map",
-    "main.35226a8f.js.map": "/static/js/main.35226a8f.js.map",
+    "main.38162a75.js.map": "/static/js/main.38162a75.js.map",
     "787.86e70ff7.chunk.js.map": "/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccfff0eb.css",
-    "static/js/main.35226a8f.js"
+    "static/js/main.38162a75.js"
   ]
 }
