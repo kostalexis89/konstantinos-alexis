@@ -24,6 +24,9 @@
     color: $primary-color-dark-2;
     font-weight: 600;
     font-size: 2rem;
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
 
     @include respond(tab-port) {
         padding: 2rem;
