@@ -1,0 +1,36 @@
+@import "./colors.scss";
+
+.container-contribution {
+    background-color: rgba(110, 89, 51, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    transition: transform .3s;
+    margin-bottom: 30px;
+    
+}
+
+.project-container {
+    
+    background-color: rgba(110, 89, 51, 0.8);
+    font-size: 3.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    transition: transform .3s;
+    margin-bottom: 30px;
+    color: #bb9a59;
+    // flex: 1 1 100%;
+    width: 100%;
+
+    & h1{
+        flex: 1;
+        font-size: 5rem;
+    }
+   
+}
+
+img {
+    height: 200px;
+}
