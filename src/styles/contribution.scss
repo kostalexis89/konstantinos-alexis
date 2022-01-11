@@ -1,0 +1,18 @@
+@import "./colors.scss";
+
+.container-contribution {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    & h1 {
+        background-color: rgba(110, 89, 51, 0.8);
+    font-size: 3.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    transition: transform .3s;
+    margin-bottom: 30px;
+    color: $primary-color-light;
+    }
+}
+

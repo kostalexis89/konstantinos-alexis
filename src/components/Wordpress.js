@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Wordpress() {
     return (
-        <div>
-            Wordpress
-        </div>
+        <div className='container-contribution'>
+        <h1>Under Construction</h1>
+    </div>
     )
 }
