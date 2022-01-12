@@ -12,7 +12,7 @@ export default function Skills() {
             <span className='portfolio-view__item'>React.js</span>
             <span className='portfolio-view__item'>Node.js</span>
             <span className='portfolio-view__item'>MongoDB</span>
-            <span className='portfolio-view__item'>Wordress</span>
+            <span className='portfolio-view__item'>Wordpress</span>
         </div>
     )
 }
